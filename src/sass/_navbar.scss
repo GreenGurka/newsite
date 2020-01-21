@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+.main-nav-container {
+  background: $primary-color;
+  max-width: 100%;
+  height: 50px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 3rem;
+}
+
+.main-nav ul {
+  display: flex;
+
+  list-style: none;
+  margin-top: 9px;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.main-nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  color: $grey;
+}
+
+.main-nav a:hover {
+  color: black;
+}
+
+/* remove burger on screens bigger than 700px*/
+@media (min-width: 700px) {
+  /*Show burger*/
+
+  .menu-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: none !important;
+  }
+
+  .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    display: none !important;
+  }
+
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+    background: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none !important;
+  }
+
+  /* Hamburger Line */
+  .menu-wrap .hamburger > div {
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 2px;
+    background: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    display: none !important;
+  }
+
+  /* style for top and bottom line*/
+  .menu-wrap .hamburger > div:before,
+  .menu-wrap .hamburger > div:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+    display: none !important;
+  }
+
+  /* moves line down*/
+  .menu-wrap .hamburger > div:after {
+    top: 10px;
+    display: none !important;
+  }
+}

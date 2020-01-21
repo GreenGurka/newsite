@@ -1,0 +1,88 @@
+.contactWrap {
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  height: 100vh;
+
+  grid-template-areas:
+    'contactText '
+    'contactForm ';
+}
+.contactText {
+  grid-area: contactText;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.contactForm {
+  grid-area: contactForm;
+  justify-self: center;
+  width: 80%;
+}
+
+#test-mailing {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  font-size: larger;
+}
+#test-mailing:hover {
+  border: 1px solid $primary-color;
+}
+
+.button {
+  width: 100%;
+  height: 2rem;
+  font-size: larger;
+  background: #fff;
+  border: 0;
+  text-transform: uppercase;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: $primary-color;
+  outline: 0;
+  transition: background-color 1s ease-out;
+}
+
+.contactButton {
+  padding: 3px;
+  margin: 3px;
+  background: #fff;
+
+  border: 1px solid $shadow;
+  border-radius: 15%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  &:hover {
+    background: $overlay-color;
+    color: white;
+  }
+}
+
+.paragrafContact a {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (max-width: 420px) {
+  .contactWrap {
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+  .contactText {
+    width: 100%;
+  }
+}

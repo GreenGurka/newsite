@@ -1,0 +1,60 @@
+@import './Variables';
+@import './navbar';
+@import './hamburgerWelcome.scss';
+@import './Home';
+@import './Portfolio';
+@import './Contact';
+@import './Footer.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gayathri', sans-serif;
+  line-height: 1.4;
+  background: $white;
+}
+
+.wrapper {
+  background: $white;
+  max-width: 1200px;
+  min-height: 100vh;
+  max-height: auto;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 3rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 20px;
+}
+
+/* media changes*/
+@media (max-width: 700px) {
+  .main-nav ul {
+    display: none;
+  }
+
+  .main-nav-container {
+    position: fixed;
+    background: $white;
+    width: 100%;
+
+    margin: auto;
+    padding: 0 0rem;
+  }
+  .main-nav {
+    position: fixed;
+    background: $primary-color;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    padding: 0 0rem;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}
