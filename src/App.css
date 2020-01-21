@@ -36,6 +36,7 @@ html {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
     display: none !important; }
   .menu-wrap .toggler {
     position: absolute;
@@ -256,7 +257,8 @@ html {
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: 0.75s; }
+  transition-duration: 0.75s;
+  z-index: 1; }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
