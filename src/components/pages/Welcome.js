@@ -9,8 +9,8 @@ const welcome = () => {
         <div className='container showcase-inner'>
           <h1>Välkommen!</h1>
           <p>
-            Här hittar ni min webdev Portfölj, Kontaktuppgifter och Cv! Jag är
-            just nu på jakt efter en anställning som Frontend developer. Kicka
+            Här hittar ni min webdev portfölj, Kontaktuppgifter och CV! Jag är
+            just nu på jakt efter en anställning som Frontend developer. Klicka
             vidare för att få reda på mer.
           </p>
           <Link to='/Home' className='btn'>

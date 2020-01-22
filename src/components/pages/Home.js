@@ -12,17 +12,16 @@ const Home = () => {
             <h1>Hej framtida arbetsgivare!</h1>
             <h4>
               Min ambition är att bli en bättre och bättre Frontend developer
-              för varje dag som går. Med en större framtida ambiton om Fullstack
-              developer. Mitt mål just nu är att landa mitt första jobb inom
-              Frontend, och fortsätta öka min kunskap inom yrket!
+              för varje dag som går. Med en större framtida ambition om
+              Fullstack developer. Mitt mål just nu är att landa mitt första
+              jobb inom Frontend och fortsätta öka min kunskap inom yrket!
             </h4>
             <br />
             <h4>
               Efter att ha växt upp i Stockholm bor jag nu i en by vid namn
               Bullmark, Umeå kommun. Jag skulle säga att mina positiva sidor är
               att jag är lugn, lätt att ha att göra med och ser till att lösa
-              mina uppgifter till det bästa som går under rådande
-              omständigheter, alltid.
+              mina uppgifter på bästa sätt under rådande omständigheter.
             </h4>
             <br />
             <h3>
@@ -40,7 +39,7 @@ const Home = () => {
           <div className='home-box-2'>
             <h3>Kunskaper</h3>
             <p>
-              Mina programmerings kunskaper är inom: <br />
+              Mina programmeringskunskaper är inom: <br />
               <strong>
                 REACT, JavaScript, CSS3, HTML5, SASS, Git, Github.
               </strong>

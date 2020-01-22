@@ -18,7 +18,7 @@ export default class extends React.Component {
               id='test-mailing'
               name='test-mailing'
               onChange={this.handleChange}
-              placeholder='Hej! Om ni vill ta kontakt via meddelande vänligen skriv det här. Glöm inte att fylla mail eller telefon nummer för återkoppling /Johan Smeij'
+              placeholder='Hej! Om ni vill ta kontakt via meddelande vänligen skriv det här. Glöm inte att fylla i mail eller telefon nummer för återkoppling /Johan Smeij'
               required
               value={this.state.feedback}
             />

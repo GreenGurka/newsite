@@ -26,25 +26,25 @@ const Portfolio = () => {
           <div className='CV'>
             <h1>CV</h1>
             <p>
-              Saneringsbolaget norr/Swoosh sanering. Maj 2019-November 2019.
+              Saneringsbolaget norr/Swoosh sanering. maj 2019-november 2019.
             </p>
 
             <p>
               {' '}
               ISKAD som Saneringstekninker först via Military Work och sedan som
-              tillsvidare anställd mellan Februari 2018 till 18 April 2019.
+              tillsvidareanställd mellan februari 2018 till 18 april 2019.
             </p>
 
             <p>
               {' '}
               GSS/K som spaningssoldat vid 131 Säkskvadron, Livgardet. från Juli
-              2017 till Februari 2018.
+              2017 till F februari 2018.
             </p>
 
             <p>
               {' '}
               Lager- och kapansvarig på Holmquist metall och gravyr (Holmquist
-              sign). Från Februari 2014 till juni 2016.
+              sign). Från februari 2014 till juni 2016.
             </p>
 
             <p>
