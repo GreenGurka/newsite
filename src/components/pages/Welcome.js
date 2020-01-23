@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import Hamburger from '../component/Hamburger';
+
 const welcome = () => {
   return (
     <Fragment>

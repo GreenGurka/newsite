@@ -19,7 +19,7 @@ const Footer = ({ icon4, icon5, icon6 }) => {
 
             <li>
               <a
-                href='https://github.com/GreenGurka/MySiteProject' //eslint-disable-next-line
+                href='https://github.com/GreenGurka/newsite' //eslint-disable-next-line
                 target='_blank'
               >
                 <i className={icon5} />

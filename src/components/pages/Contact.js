@@ -36,6 +36,7 @@ const Contact = () => {
           <Form />
         </div>
       </div>
+
       <Footer />
     </Fragment>
   );

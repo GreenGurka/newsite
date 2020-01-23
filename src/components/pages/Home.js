@@ -26,7 +26,7 @@ const Home = () => {
             <br />
             <h3>
               <a
-                href='https://github.com/GreenGurka/MySiteProject'
+                href='https://github.com/GreenGurka/newsite'
                 //eslint-disable-next-line
                 target='_blank'
               >
@@ -54,6 +54,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </Fragment>
   );
