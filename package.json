@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.0.2",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "description": "My first deployed site. For my portfolio and stuff.",
   "main": "index.js",
